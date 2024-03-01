@@ -9,10 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.11.24",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/readline-sync": "^1.4.8"
+    "@types/node": "^20.11.24",
+    "@types/readline-sync": "^1.4.8",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
   }
 }
