@@ -8,7 +8,7 @@
         "active": true,
         "fuel": "petrol",
         "color": "grey",
-        "image": "https://www.bing.com/images/create/22een-grijze-toyota-corolla-van-2020-in-een-stedeli/1-65e11c89291e442895de01b3fa2eb160?id=wXkyiZMjbr3lZKr7Sz1n%2BQ.VK5r7NN4IRduNDqkJyP5Pw&view=detailv2&idpp=genimg&idpclose=1&thid=OIG2.UDfkKmMlcRxv9cqU1nUI&form=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/ToyotaCorolla.jpg",
         "description": "The Toyota Corolla is a reliable and fuel-efficient sedan, perfect for everyday commuting.",
         "extra_info": {
             "id": 101,
@@ -26,7 +26,7 @@
         "active": false,
         "fuel": "diesel",
         "color": "white",
-        "image": "https://www.bing.com/images/create/22een-volkswagen-golf-7-van-2018-in-een-stedelijke-/1-65e11da77c7145dbb18949b9ef8ec32e?id=Kr4SU5TSpA39YEvOT5omvg%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG3.cTcxyzpTQl73NfTwDtoe&FORM=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/Golf7.jpg",
         "description": "The Volkswagen Golf is a versatile hatchback with a spacious interior and great handling.",
         "extra_info": {
             "id": 102,
@@ -44,7 +44,7 @@
         "active": true,
         "fuel": "petrol",
         "color": "bronze",
-        "image": "https://www.bing.com/images/create/22een-bronze-ford-focus-van-2019-in-een-stedelijke-/1-65e11e1795fe41f89638975abbc3fb1d?id=HaR%2b%2bxpkoTaHWFE99XskjA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.cESfrODYMUvNnPGA6uxe&FORM=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/FordFocus.jpg",
         "description": "The Ford Focus offers a fun driving experience with its nimble handling and stylish design.",
         "extra_info": {
             "id": 103,
@@ -62,7 +62,7 @@
         "active": true,
         "fuel": "hybrid",
         "color": "green",
-        "image": "https://www.bing.com/images/create/22een-groene-honda-civic-van-2021-in-de-vorm-van-ee/1-65e11fa25fa745bb8a000436218d2a4e?id=RKYGCecr2eCjVR%2B4Kj9O2g.sJL2FcKgTE0MSr%2FJPaqG6Q&view=detailv2&idpp=genimg&idpclose=1&thid=OIG2.Lt.svjJ7TsJhFPrdf0MP&form=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/HondaCivic.jpg",
         "description": "The Honda Civic Hybrid combines fuel efficiency with sporty looks, making it a popular choice.",
         "extra_info": {
             "id": 104,
@@ -80,7 +80,7 @@
         "active": false,
         "fuel": "petrol",
         "color": "red",
-        "image": "https://www.bing.com/images/create/22een-rode-bmw-3-serie-van-2017-in-een-stedelijke-o/1-65e120267d474ecd99e0db7af53a6984?id=U%2BM216jmshmgHSnux7owEA%3D%3D&view=detailv2&idpp=genimg&idpclose=1&thid=OIG4.Z736iKaQDLEiNHLmtcwl&form=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/BMW3Serie.jpg",
         "description": "The BMW 3 Series is a luxury sedan known for its upscale interior and impressive performance.",
         "extra_info": {
             "id": 105,
@@ -98,7 +98,7 @@
         "active": true,
         "fuel": "diesel",
         "color": "silver",
-        "image": "https://www.bing.com/images/create/22een-zilvere-mercedes-a-klasse-van-2019-in-een-ste/1-65e1209f203e40f195617fc6764f9fdc?id=hdGsinaexlXFP31S%2BoVBag%3D%3D&view=detailv2&idpp=genimg&idpclose=1&thid=OIG3.KtbFhHy9iRFIbno5C8LS&form=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/MercedesAklasse.jpg",
         "description": "The Mercedes A-Class offers a blend of luxury and performance in a compact package.",
         "extra_info": {
             "id": 106,
@@ -116,7 +116,7 @@
         "active": true,
         "fuel": "petrol",
         "color": "nardo grey",
-        "image": "https://www.bing.com/images/create/22een-nardo-grijze-audi-rs4-van-2022-in-een-stedeli/1-65e121417b2441f7b9b0ee274718a5d6?id=GW8wNsiqx4zktKf3riJrkQ%3D%3D&view=detailv2&idpp=genimg&idpclose=1&thid=OIG2._G709w1_JCs7vBFbQKA7&form=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/AudiRS4.jpg",
         "description": "The Audi RS4 combines elegant styling with advanced technology for a luxurious and thrilling driving experience.",
         "extra_info": {
             "id": 107,
@@ -134,7 +134,7 @@
         "active": false,
         "fuel": "hybrid",
         "color": "brown",
-        "image": "https://www.bing.com/images/create/22een-bruine-volvo-xc60-van-2020-in-een-stedelijke-/1-65e121ec2b54498b80c5841c81d45c8f?id=I9x0L%2b0SwhPQRYyDebxENw%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG3.fTXaxgWEaPWY7doD2so0&FORM=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/VolvoXC60.jpg",
         "description": "The Volvo XC60 is a luxurious and spacious SUV with advanced safety features for a smooth ride.",
         "extra_info": {
             "id": 108,
@@ -152,7 +152,7 @@
         "active": true,
         "fuel": "electric",
         "color": "red",
-        "image": "https://www.bing.com/images/create/22een-rode-tesla-model-s-van-2020-in-een-stedelijke/1-65e1225e2ca04ebf8f334378fe37a90e?id=KF9FWEie4XQ%2bNs5ZQDvw1w%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG4.Pn98MY95XeFuLBGo.4xZ&FORM=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/TeslaModelS.jpg",
         "description": "The Tesla Model S is an all-electric luxury sedan with cutting-edge technology and impressive acceleration.",
         "extra_info": {
             "id": 109,
@@ -170,7 +170,7 @@
         "active": true,
         "fuel": "petrol",
         "color": "yellow",
-        "image": "https://www.bing.com/images/create/22een-gele-porsche-911-van-2021-in-een-stedelijke-o/1-65e122f3ca9f43b2b37622c9678ceed5?id=Y6%2beLqeAr%2fb3HWaNHddA1g%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG4.PQDHndHJMzZ.tlLlw3AG&FORM=SYDBIC",
+        "image": "https://github.com/MohaHadji03/ProjectWebOntw/blob/main/images/Porsche911.jpg",
         "description": "The Porsche 911 is a legendary sports car known for its timeless design and exhilarating performance.",
         "extra_info": {
             "id": 110,
