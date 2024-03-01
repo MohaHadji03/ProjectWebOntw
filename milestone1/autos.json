@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": 25000,
+        "active": true,
+        "fuel": "petrol",
+        "color": "grey",
+        "image": "https://di-uploads-pod14.dealerinspire.com/toyotaoforlando/uploads/2019/02/2020-Toyota-Corolla.jpg",
+        "description": "The Toyota Corolla is a reliable and fuel-efficient sedan, perfect for everyday commuting.",
+        "extra_info": {
+            "id": 101,
+            "transmission": "automatic",
+            "number_of_doors": 4,
+            "type": "sedan"
+        }
+    },
+    {
+        "id": 2,
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "price": 20000,
+        "active": false,
+        "fuel": "diesel",
+        "color": "white",
+        "image": "https://s1.cdn.autoevolution.com/images/news/new-volkswagen-golf-r-line-revealed-photo-gallery-58528_1.jpg",
+        "description": "The Volkswagen Golf is a versatile hatchback with a spacious interior and great handling.",
+        "extra_info": {
+            "id": 102,
+            "transmission": "manual",
+            "number_of_doors": 5,
+            "type": "r-line"
+        }
+    },
+    {
+        "id": 3,
+        "brand": "Ford",
+        "model": "Focus",
+        "year": 2019,
+        "price": 22000,
+        "active": true,
+        "fuel": "petrol",
+        "color": "bronze",
+        "image": "https://www.netcarshow.com/Ford-Focus_Sedan-2019-1600-02.jpg",
+        "description": "The Ford Focus offers a fun driving experience with its nimble handling and stylish design.",
+        "extra_info": {
+            "id": 103,
+            "transmission": "automatic",
+            "number_of_doors": 5,
+            "type": "sedan"
+        }
+    },
+    {
+        "id": 4,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "price": 27000,
+        "active": true,
+        "fuel": "hybrid",
+        "color": "green",
+        "image": "https://img.gocar.be/v7/_cloud_wordpress_/2018/05/honda-civic-concept.jpg?w=1200&h=630&optipress=3",
+        "description": "The Honda Civic Hybrid combines fuel efficiency with sporty looks, making it a popular choice.",
+        "extra_info": {
+            "id": 104,
+            "transmission": "CVT",
+            "number_of_doors": 4,
+            "type": "coupe"
+        }
+    },
+    {
+        "id": 5,
+        "brand": "BMW",
+        "model": "3 Series",
+        "year": 2017,
+        "price": 30000,
+        "active": false,
+        "fuel": "petrol",
+        "color": "red",
+        "image": "https://mediapool.bmwgroup.com/cache/P9/201310/P90137589/P90137589-the-new-bmw-m235i-coupe-10-2013-600px.jpg",
+        "description": "The BMW 3 Series is a luxury sedan known for its upscale interior and impressive performance.",
+        "extra_info": {
+            "id": 105,
+            "transmission": "automatic",
+            "number_of_doors": 4,
+            "type": "coupe"
+        }
+    },
+    {
+        "id": 6,
+        "brand": "Mercedes",
+        "model": "A-Class",
+        "year": 2019,
+        "price": 28000,
+        "active": true,
+        "fuel": "diesel",
+        "color": "silver",
+        "image": "https://static.moniteurautomobile.be/imgcontrol/images_tmp/clients/moniteur/c680-d465/content/medias/images/cars/mercedes/a-class/mercedes--classe-a-limousine--2019/mercedes--classe-a-limousine--2019-m-2.jpg",
+        "description": "The Mercedes A-Class offers a blend of luxury and performance in a compact package.",
+        "extra_info": {
+            "id": 106,
+            "transmission": "automatic",
+            "number_of_doors": 5,
+            "type": "limo"
+        }
+    },
+    {
+        "id": 7,
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2022,
+        "price": 35000,
+        "active": true,
+        "fuel": "petrol",
+        "color": "nardo grey",
+        "image": "https://media.automotivetradecenter.com/16420/8bb91c-atcwr7xyv.jpg",
+        "description": "The Audi RS4 combines elegant styling with advanced technology for a luxurious and thrilling driving experience.",
+        "extra_info": {
+            "id": 107,
+            "transmission": "S tronic",
+            "number_of_doors": 5,
+            "type": "RS"
+        }
+    },
+    {
+        "id": 8,
+        "brand": "Volvo",
+        "model": "XC60",
+        "year": 2020,
+        "price": 32000,
+        "active": false,
+        "fuel": "hybrid",
+        "color": "brown",
+        "image": "https://resource.digitaldealer.com.au/image/833687921606162a4d6384504627378_770_0-c.jpg",
+        "description": "The Volvo XC60 is a luxurious and spacious SUV with advanced safety features for a smooth ride.",
+        "extra_info": {
+            "id": 108,
+            "transmission": "automatic",
+            "number_of_doors": 5,
+            "type": "SUV"
+        }
+    },
+    {
+        "id": 9,
+        "brand": "Tesla",
+        "model": "Model S",
+        "year": 2023,
+        "price": 60000,
+        "active": true,
+        "fuel": "electric",
+        "color": "red",
+        "image": "https://thumbor.forbes.com/thumbor/fit-in/960x/https://www.forbes.com/wheels/wp-content/uploads/2023/04/2023_Tesla_S_Review1.jpg",
+        "description": "The Tesla Model S is an all-electric luxury sedan with cutting-edge technology and impressive acceleration.",
+        "extra_info": {
+            "id": 109,
+            "transmission": "automatic",
+            "number_of_doors": 4,
+            "type": "hatchback"
+        }
+    },
+    {
+        "id": 10,
+        "brand": "Porsche",
+        "model": "911",
+        "year": 2021,
+        "price": 120000,
+        "active": true,
+        "fuel": "petrol",
+        "color": "yellow",
+        "image": "https://www.motortrend.com/uploads/2022/04/2022-Porsche-911-Turbo-S-Lightweight-02.jpg",
+        "description": "The Porsche 911 is a legendary sports car known for its timeless design and exhilarating performance.",
+        "extra_info": {
+            "id": 110,
+            "transmission": "manual",
+            "number_of_doors": 2,
+            "type": "coupe"
+        }
+    }
+]
