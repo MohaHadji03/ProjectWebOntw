@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2020,
+    "price": 25000,
+    "active": true,
+    "fuel": "Benzine",
+    "color": "Grijs",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/ToyotaCorolla.jpg",
+    "description": "De Toyota Corolla is een betrouwbare en zuinige sedan, perfect voor dagelijks woon-werkverkeer.",
+    "extra_info": {
+      "id": 101,
+      "transmission": "automatisch",
+      "number_of_doors": 4,
+      "type": "sedan"
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2018,
+    "price": 14900,
+    "active": false,
+    "fuel": "diesel",
+    "color": "wit",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/Golf7.jpg",
+    "description": "De Volkswagen Golf is een veelzijdige hatchback met een ruim interieur en geweldige handling.",
+    "extra_info": {
+      "id": 102,
+      "transmission": "handmatig",
+      "number_of_doors": 5,
+      "type": "r-line"
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2019,
+    "price": 19000,
+    "active": true,
+    "fuel": "benzine",
+    "color": "brons",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/FordFocus.jpg",
+    "description": "De Ford Focus biedt een leuke rijervaring met zijn wendbare handling en stijlvolle ontwerp.",
+    "extra_info": {
+      "id": 103,
+      "transmission": "automatisch",
+      "number_of_doors": 5,
+      "type": "sedan"
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "price": 27000,
+    "active": true,
+    "fuel": "hybride",
+    "color": "groen",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/HondaCivic.jpg",
+    "description": "De Honda Civic Hybrid combineert brandstofefficiëntie met sportieve looks, waardoor het een populaire keuze is.",
+    "extra_info": {
+      "id": 104,
+      "transmission": "CVT",
+      "number_of_doors": 4,
+      "type": "coupé"
+    }
+  },
+  {
+    "id": 5,
+    "brand": "BMW",
+    "model": "3 Serie",
+    "year": 2017,
+    "price": 25000,
+    "active": false,
+    "fuel": "benzine",
+    "color": "rood",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/BMW3Serie.jpg",
+    "description": "De BMW 3 Serie is een luxe sedan die bekend staat om zijn chique interieur en indrukwekkende prestaties.",
+    "extra_info": {
+      "id": 105,
+      "transmission": "automatisch",
+      "number_of_doors": 4,
+      "type": "coupé"
+    }
+  },
+  {
+    "id": 6,
+    "brand": "Mercedes",
+    "model": "A-Klasse",
+    "year": 2019,
+    "price": 28000,
+    "active": true,
+    "fuel": "diesel",
+    "color": "zilver",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/MercedesAklasse.jpg",
+    "description": "De Mercedes A-Klasse biedt een mix van luxe en prestaties in een compacte verpakking.",
+    "extra_info": {
+      "id": 106,
+      "transmission": "automatisch",
+      "number_of_doors": 5,
+      "type": "limousine"
+    }
+  },
+  {
+    "id": 7,
+    "brand": "Audi",
+    "model": "RS4",
+    "year": 2022,
+    "price": 90000,
+    "active": true,
+    "fuel": "benzine",
+    "color": "nardo grijs",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/AudiRS4.jpg",
+    "description": "De Audi RS4 combineert elegante styling met geavanceerde technologie voor een luxueuze en opwindende rijervaring.",
+    "extra_info": {
+      "id": 107,
+      "transmission": "S tronic",
+      "number_of_doors": 5,
+      "type": "RS"
+    }
+  },
+  {
+    "id": 8,
+    "brand": "Volvo",
+    "model": "XC60",
+    "year": 2020,
+    "price": 37500,
+    "active": false,
+    "fuel": "hybride",
+    "color": "bruin",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/VolvoXC60.jpg",
+    "description": "De Volvo XC60 is een luxe en ruime SUV met geavanceerde veiligheidsvoorzieningen voor een comfortabele rit.",
+    "extra_info": {
+      "id": 108,
+      "transmission": "automatisch",
+      "number_of_doors": 5,
+      "type": "SUV"
+    }
+  },
+  {
+    "id": 9,
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2023,
+    "price": 75000,
+    "active": true,
+    "fuel": "elektrisch",
+    "color": "rood",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/TeslaModelS.jpg",
+    "description": "De Tesla Model S is een volledig elektrische luxe sedan met geavanceerde technologie en indrukwekkende acceleratie.",
+    "extra_info": {
+      "id": 109,
+      "transmission": "automatisch",
+      "number_of_doors": 4,
+      "type": "hatchback"
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Porsche",
+    "model": "911",
+    "year": 2021,
+    "price": 150000,
+    "active": true,
+    "fuel": "benzine",
+    "color": "geel",
+    "image": "https://raw.github.com/MohaHadji03/ProjectWebOntw/main/images/Porsche911.jpg",
+    "description": "De Porsche 911 is een legendarische sportwagen die bekend staat om zijn tijdloze ontwerp en opwindende prestaties.",
+    "extra_info": {
+      "id": 110,
+      "transmission": "automatisch",
+      "number_of_doors": 2,
+      "type": "coupé"
+    }
+  }
+]
