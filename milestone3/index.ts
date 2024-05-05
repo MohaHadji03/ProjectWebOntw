@@ -33,7 +33,6 @@ interface ExtraInfo {
     type: string;
 }
 
-// Lees het JSON-bestand en converteer de inhoud naar een array van Car-objecten
 const rawData = fs.readFileSync(path.join(__dirname, 'cars.json'));
 const carsData: Car[] = JSON.parse(rawData.toString());
 
@@ -59,16 +58,13 @@ async function importCarsDataToMongoDB(db: any) {
 
 app.get('/', async (req, res) => {
     try {
-        // Verbind met MongoDB
+
         const db = await connectToMongoDB();
         
-        // Importeer auto-gegevens naar MongoDB
         await importCarsDataToMongoDB(db);
         
-        // Haal de gegevens op uit de "cars" collectie
         const carsFromDB = await db.collection('cars').find({}).toArray();
         
-        // Render de pagina met de opgehaalde gegevens
         res.render('overzicht', { cars: carsFromDB });
     } catch (err) {
         console.error('Error:', err);
