@@ -1,0 +1,59 @@
+<%- include("header") %>
+<body>
+
+<form action="/overzicht" method="GET">
+  <input type="text" name="q" placeholder="Zoek op naam" />
+  <button type="submit">Zoek</button>
+</form>
+
+<div class="sort-dropdown">
+  <button class="dropbtn">Sorteer op</button>
+  <div class="dropdown-content">
+    <a href="/overzicht?sortBy=brand&sortOrder=asc">Merk (ASC)</a>
+    <a href="/overzicht?sortBy=price&sortOrder=desc">Prijs (DESC)</a>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Merk</th>
+      <th>Model</th>
+      <th>Jaar</th>
+      <th>Prijs</th>
+      <th>Actief</th>
+      <th>Brandstof</th>
+      <th>Kleur</th>
+      <th>Afbeelding</th>
+      <th>Beschrijving</th>
+      <th>Transmissie</th>
+      <th>Aantal deuren</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% cars.forEach(car => { %>
+    <tr>
+      <td><a href="/detail/<%= car.id %>"><%= car.brand %></a></td>
+      <td><%= car.model %></td>
+      <td><%= car.year %></td>
+      <td>€<%= car.price %></td>
+      <td><%= car.active ? "Ja" : "Nee" %></td>
+      <td><%= car.fuel %></td>
+      <td><%= car.color %></td>
+      <td>
+        <img
+          class="car-image"
+          src="<%= car.image %>"
+          alt="<%= car.brand %> <%= car.model %>"
+        />
+      </td>
+      <td><%= car.description %></td>
+      <td><%= car.extra_info.transmission %></td>
+      <td><%= car.extra_info.number_of_doors %></td>
+      <td><%= car.extra_info.type %></td>
+    </tr>
+    <% }); %>
+  </tbody>
+</table>
+<%- include("footer") %>
