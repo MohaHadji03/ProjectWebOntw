@@ -1,16 +1,21 @@
 import { MongoClient, Db } from 'mongodb';
+import dotenv from 'dotenv';
 
-const uri = "mongodb+srv://mohammedoualdhadj:Utrecht-090619@cluster0.xccnhqe.mongodb.net/"
-const client = new MongoClient(uri);
+dotenv.config();
+
+const mongoURI: string | undefined = process.env.MONGO_URI ?? '';
+const dbName = process.env.DB_NAME;
+
+const client = new MongoClient(mongoURI);
 
 async function connectToMongoDB(): Promise<Db> {
     try {
         await client.connect();
         console.log('Connected to MongoDB');
-        return client.db('Cluster0'); // Verander 'yourDatabaseName' naar jouw database
+        return client.db('Cluster0'); 
     } catch (err) {
         console.error(err);
-        throw err; // Op deze manier kan de fout worden afgehandeld door de aanroepende code
+        throw err;
     }
 }
 
