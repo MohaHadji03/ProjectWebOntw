@@ -1,0 +1,6 @@
+<%- include("header") %>
+<h1>Welkom bij WagenShop, <%= user.username %>!</h1>
+<form action="/logout" method="post">
+    <button type="submit">Uitloggen</button>
+</form>
+<%- include("footer") %>

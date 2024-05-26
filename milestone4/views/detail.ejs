@@ -1,0 +1,27 @@
+<%- include("header") %>
+<h1>
+  <%= car.brand %> <%= car.model %>
+</h1>
+<ul>
+  <li><strong>ID:</strong> <%= car.id %></li>
+  <li><strong>Merk:</strong> <%= car.brand %></li>
+  <li><strong>Model:</strong> <%= car.model %></li>
+  <li><strong>Jaar:</strong> <%= car.year %></li>
+  <li><strong>Prijs:</strong> €<%= car.price %></li>
+  <li><strong>Actief:</strong> <%= car.active ? "Ja" : "Nee" %></li>
+  <li><strong>Brandstof:</strong> <%= car.fuel %></li>
+  <li><strong>Kleur:</strong> <%= car.color %></li>
+  <li>
+    <strong>Afbeelding:</strong>
+    <img width="150px" src="<%= car.image %>" alt="<%= car.brand %> <%= car.model %>" />
+  </li>
+  <li><strong>Beschrijving:</strong> <%= car.description %></li>
+  <% if (car.extra_info) { %>
+    <li><strong>Transmissie:</strong> <%= car.extra_info.transmission %></li>
+    <li><strong>Aantal deuren:</strong> <%= car.extra_info.number_of_doors %></li>
+    <li><strong>Type:</strong> <%= car.extra_info.type %></li>
+  <% } else { %>
+    <li><strong>Extra informatie niet beschikbaar</strong></li>
+  <% } %>
+</ul>
+<%- include("footer") %>
